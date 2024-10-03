@@ -33,8 +33,8 @@
 <body>
     <style type='text/css'>
         body{
-            font-family: Georgia, "Simsum";
-            font-size:15.5px;
+            font-family: "Simsum";
+            font-size:17px;
         }
         /*
             div.content:
@@ -166,7 +166,7 @@
     <div class="content intro" name='biography'>
         <a name="biography"></a>
         <div class='title'>About Me</div>
-        Hi, I am a 3rd-year Ph.D. candidate in <a href="https://cse.hkust.edu.hk/" target="_blank">Department of Computer Science and Engineering</a>, <a href="https://hkust.edu.hk/" target="_blank">The Hong Kong University of Science and Technology</a>, advised by <a href="https://www.cse.ust.hk/~kaichen/" target="_blank">Prof. Kai Chen</a>. Before that, I received my B.E. degree in Electronic Science and Technology from <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> in 2021. My research interests include datacenter networking, in-network acceleration, and machine learning systems. If you are interested in my works, feel free to drop me an email.
+        Hi, I am a 4th-year Ph.D. candidate in <a href="https://cse.hkust.edu.hk/" target="_blank">Department of Computer Science and Engineering</a>, <a href="https://hkust.edu.hk/" target="_blank">The Hong Kong University of Science and Technology</a>, advised by <a href="https://www.cse.ust.hk/~kaichen/" target="_blank">Prof. Kai Chen</a>. Before that, I received my B.E. degree in Electronic Science and Technology from <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> in 2021. My research interests include datacenter networking, in-network acceleration, and machine learning systems. If you are interested in my works, feel free to drop me an email.
         <br/>
         <hr class="new">
     </div>    
@@ -183,7 +183,7 @@
             <li>
                 <b><font color=#4682B4>[APNet 2024]</font></b> <b><a href="" target="_blank">Understanding Communication Characteristics of Distributed Training</a></b>
                 <br><b>Wenxue Li</b>, Xiangzhou Liu, Yuxuan Li, Yilun Jin, Han Tian, Zhizhen Zhong, Guyue Liu, Ying Zhang, Kai Chen
-                <br>[<a href="https://dl.acm.org/doi/10.1145/3663408.3663409" target="_blank">Link</a>]                
+                <br>[<a href="https://dl.acm.org/doi/10.1145/3663408.3663409" target="_blank">Link</a>] [<a href="slides/understanding-apnet2024-slides.pdf" target="_blank">Slides</a>]                
             </li>
 
             <li>
@@ -253,7 +253,7 @@
     <div class="content link" name='Links'>
         <div class="title">Teaching Assistant</div>
         <ul>
-            <li> COMP4651 - Cloud Computing and Big Data Systems, 2022 Spring
+            <li> COMP 4651 - Cloud Computing and Big Data Systems, 2022 Spring
             </li> 
             <li> COMP 3511 - Operating Systems, 2022 Fall
             </li>
@@ -263,7 +263,11 @@
     </div> 
 
     <div class="content footer">
-        Last updated on <b><font color=#008B8B>April, 2024</font></b>.
+        Last updated on <b><span id="lastModifiedDate"></span></b>.
     </div>
+    <script>
+        document.getElementById("lastModifiedDate").textContent = new Date(document.lastModified).toLocaleDateString();
+    </script>
+
 </body>
 </html>
