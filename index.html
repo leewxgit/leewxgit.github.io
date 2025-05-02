@@ -1,273 +1,118 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-	<meta  http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0" />
-	<link rel="stylesheet" type="text/css" href="webpage/bootstrap.min.css"/>
-    <script language="javascript" src="webpage/jquery.min.js"></script>
-	<script language="javascript" src="webpage/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="webpage/cssReset.css"/>
-    <link rel="icon" href="" type="image/x-icon" />
-	<title>Wenxue Li's Homepage</title>
-	<meta name="description" content="Wenxue Li's Homepage - HKUST CSE">
-	<meta name="keywords" content="Wenxue Li, HKUST">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167316452-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-167316452-1');
-    </script>  
-    <style>
-        ul.no-bullets {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        }
-    </style>
-
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+<meta name="description" content="Homepage of Wenxue Li"/>
+<meta name="keywords" content="Wenxue Li, HKUST"/>
+<meta name="author" content="Wenxue Li"/>
+<title>Wenxue Li</title>
+<style>
+  #news-list li {
+    display: none;
+  }
+  #news-list li:nth-child(-n+5) {
+    display: list-item;
+  }
+</style>
 </head>
 
 <body>
-    <style type='text/css'>
-        body{
-            font-family: "Simsum";
-            font-size:15.5px;
-        }
-        /*
-            div.content:
-                provide the content div in the middle
-        */
-        body div.content{
-            /*width:1280px;*/
-            /* width:905px; */
-            width:60%;
-            margin:0 auto;
-            line-height:25px;
-            min-width: 700px;
-        }
-        /*
-            header wrapper
-        */
-        body div.header{
-            background-color:#2196F3;
-        }
-        body div.header > div.content{
-            padding:15px;
-        }
-        div.footer{
-            padding:32px 0px 28px 10px;
-            /* padding:40px, 100px, 10px, 0; */
-        }
-        /*
-            utils css
-        */
-        div.white-text{
-            color:white;
-        }
-        div.content > div.title{
-            padding:16px 0 26px 0;
-            /* border-top:1px silver solid; */
-            margin-top:0px;
-            font-size:1.4em;
-            font-weight:bold;
-            line-height:1px;
-        }
-        body a{
-            color:#08306b;
-            /* #004C99; */
-            text-decoration:none;
-        }
-        div.content ul{
-            list-style: square outside none;
-            padding-left:20px;
-        }
-        div.content ol{
-            list-style: square outside none;
-            padding-left:20px;
-        }
-        div.content li{
-            line-height:24px;
-            padding-bottom:2px;
-        }
-        div.content div.float-right{
-            float:right;
-        }
-    </style>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
 
-    <style>
-        hr.new {
-        border-top: 1.3px silver solid;
-        /* padding-top:10px; */
-        }
-    </style>
+<td id="layout-menu">
+<div class="menu-category">Welcome</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="pub.html">Publications</a></div>
+<div class="menu-item"><a href="service.html">Academic Services</a></div>
+<div class="menu-item"><a href="cv.pdf">CV</a></div>
+</td>
 
-    </style>
-    <!-- publications -->
-    <style type="text/css">
-        div.publications > ol > li{
-            padding-bottom: 12px;
-        }
-    </style>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Wenxue Li (&#x674e; &#x6587; &#x96ea;)</h1>
+</div>
 
-    <!-- css for bio -->
-    <style type="text/css">
-        div.bio > div.left{
-            float:left;
-            width:200px;
-        }
-        div.bio > div.left > img.me{
-            /* max-height:260px; */
-            margin:10px;
-            /* max-width:230px; */
-            margin-top:10px;
-            margin-left:30px;
-        }
+<table class="imgtable"><tr><td>
+<img src="./img/lwx.jpg" alt="alt text" width="200px" height="245px" /></td>
+<td align="left">
+<p>
+PhD Candidate<br/>
+<a href="https://cse.hkust.edu.hk/">Department of Computer Science and Engineering</a><br/>
+<a href="https://hkust.edu.hk">The Hong Kong University of Science and Technology</a><br/>
+Hong Kong SAR, China
+<br/>
+<p>Email:<a><img src="./img/email.jpg" alt="" width="250px" style="vertical-align:middle" /></a></p>
+<a href="https://scholar.google.com/citations?hl=en&user=boRtFioAAAAJ"><img src="./img/googlescholar.png" alt="google scholar" width="28px" style="vertical-align:middle" /></a>
+<a href="https://www.linkedin.com/in/wenxueli-7487741b6/"><img src="./img/linkedin.png" alt="google scholar" width="28px" style="vertical-align:middle" /></a>
+<a href="https://github.com/leewxgit"><img src="./img/github.png" alt="google scholar" width="32px" style="vertical-align:middle" /></a>
+<br/>
 
-        div.bio > div.right{
-            margin:30px 0 0 400px;
-            min-height:260px;
-            line-height:28px;
-        }
-        div.bio > div.right > div.line.name{
-            padding:30px 0;
-            line-height:40px;
-        }
-        div.bio > div.right > div.name > span.name, div.bio > div.right > div.name > span.chineseName{
-            font-size:1.7em;
-            font-weight:bold;
-        }
-    </style>
+</p>
+</td>
+</tr>
+</table>
 
-    <div class="content bio">
-        <div class="left">
-            <img class='me' src="./images/lwx.jpg"></img><br/>
-        </div>
-        <div class="right">
-            <div class="line name">
-                <span class="name">Wenxue Li</span>
-                <span class="chineseName">(李文雪)</span>
-            </div>
-            <div class="affliation">
-                <p>PhD Candidate</p>
-                <a href="https://cse.hkust.edu.hk/" target="_blank">Department of Computer Science and Engineering</a></br>
-                <a href="https://hkust.edu.hk/" target="_blank">The Hong Kong University of Science and Technology</a></br>
-                <p>Email:<a><img src="images/email.jpg" alt="" width="250px" style="vertical-align:top" /></a></p>
-                <a href="https://scholar.google.com/citations?hl=en&user=boRtFioAAAAJ"><img src="images/googlescholar.png" alt="google scholar" width="28px" style="vertical-align:middle" /></a>
-                <a href="https://www.linkedin.com/in/wenxueli-7487741b6/"><img src="images/linkedin.png" alt="google scholar" width="28px" style="vertical-align:middle" /></a>
-                <a href="https://github.com/leewxgit"><img src="images/github.png" alt="google scholar" width="30px" style="vertical-align:middle" /></a>
-            </div>
-        </div>
-        <hr class="new">
-    </div>
 
-    <div class="content intro" name='biography'>
-        <a name="biography"></a>
-        <div class='title'>About Me</div>
-        Hi, I am a 4th-year Ph.D. candidate in <a href="https://cse.hkust.edu.hk/" target="_blank">Department of Computer Science and Engineering</a>, <a href="https://hkust.edu.hk/" target="_blank">The Hong Kong University of Science and Technology</a>, advised by <a href="https://www.cse.ust.hk/~kaichen/" target="_blank">Prof. Kai Chen</a>. Before that, I received my B.E. degree in Electronic Science and Technology from <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> in 2021. My research interests include datacenter networking, in-network acceleration, and machine learning systems. If you are interested in my works, feel free to drop me an email.
-        <br/>
-        <hr class="new">
-    </div>    
 
-    <div class="content publications" name='publications'>
-        <a name="publications"></a>
-        <div class="title">Publications</div>
-        <ol> 
-            <li>
-                <b><font color=#4682B4>[ToN 2024]</font></b> <b><a href="" target="_blank">FlowSail: Fine-grained and Practical Flow Control for Datacenter Networks</a></b>
-                <br><b>Wenxue Li</b>, Chaoliang Zeng, Jinbin Hu, Kai Chen
-                <br>[<a href="https://ieeexplore.ieee.org/document/10541943" target="_blank">Link</a>]                
-            </li>
-            <li>
-                <b><font color=#4682B4>[APNet 2024]</font></b> <b><a href="" target="_blank">Understanding Communication Characteristics of Distributed Training</a></b>
-                <br><b>Wenxue Li</b>, Xiangzhou Liu, Yuxuan Li, Yilun Jin, Han Tian, Zhizhen Zhong, Guyue Liu, Ying Zhang, Kai Chen
-                <br>[<a href="https://dl.acm.org/doi/10.1145/3663408.3663409" target="_blank">Link</a>] [<a href="slides/understanding-apnet2024-slides.pdf" target="_blank">Slides</a>]                
-            </li>
+<h2>About Me</h2>
 
-            <li>
-                <b><font color=#4682B4>[HPCA 2024]</font></b> <b><a href="" target="_blank">Cepheus: Accelerating Datacenter Applications with High-Performance RoCE-Capable Multicast</a></b>
-                <br><b>Wenxue Li*</b>, Junyi Zhang*, Yufei Liu, Gaoxiong Zeng, Zilong Wang, Chaoliang Zeng, Pengpeng Zhou, Qiaoling Wang, Kai Chen 
-                <!-- <br>in <i>The 30th IEEE International Symposium on High-Performance Computer Architecture</i>, 2024. -->
-                <br>[<a href="https://ieeexplore.ieee.org/abstract/document/10476407/" target="_blank">Link</a>] [<a href="slides/cepheus-hpca2024-slides.pdf" target="_blank">Slides</a>]                
-            </li>                      
+<p>
+  Hi, I am a 4th-year Ph.D. candidate in <a href="https://cse.hkust.edu.hk/" target="_blank">Department of Computer Science and Engineering</a>, <a href="https://hkust.edu.hk/" target="_blank">Hong Kong University of Science and Technology</a>, advised by <a href="https://www.cse.ust.hk/~kaichen/" target="_blank">Prof. Kai Chen</a>. Before that, I received my B.E. degree in Electronic Science and Technology from <a href="https://www.zju.edu.cn/english/" target="_blank">Zhejiang University</a> in 2021. My research interests include datacenter networking, in-network acceleration, and machine learning systems. If you are interested in my works, feel free to drop me an email.
+<p>
 
-            <li>
-                <b><font color=#4682B4>[ICNP 2023]</font></b> <b><a href="https://ieeexplore.ieee.org/abstract/document/10355582" target="_blank">Towards Fine-grained and Practical Flow Control for Datacenter Networks</a></b>
-                <br><b>Wenxue Li</b>, Chaoliang Zeng, Jinbin Hu, Kai Chen
-                <br>[<a href="https://ieeexplore.ieee.org/abstract/document/10355582" target="_blank">Link</a>] [<a href="slides/flowsail-icnp2023-slides.pdf" target="_blank">Slides</a>]
-            </li>
+  <h2>News</h2>
+  <ul id="news-list">
+    <li><p>Apr. 2025&nbsp;&nbsp; DCP and CEIO are accepted to SIGCOMM 2025.</p></li>
+    <li><p>Apr. 2025&nbsp;&nbsp; FLB is accepted to ATC 2025.</p></li>
+    <li><p>Apr. 2025&nbsp;&nbsp; Themis and MCC are accepted to APNet 2025.</p></li>
+    <li><p>Mar. 2025&nbsp;&nbsp; FuseLink is accepted to OSDI 2025.</p></li>
+    <li><p>May 2024&nbsp;&nbsp; FlowSail is accepted to IEEE/ACM Transactions on Networking.</p></li>
+    <li><p>Apr. 2024&nbsp;&nbsp; Understanding AI workloads is accepted to APNet 2024.</p></li>
+    <li><p>Oct. 2023&nbsp;&nbsp; Cepheus is accepted to HPCA 2024.</p></li>
+    <li><p>July 2023&nbsp;&nbsp; FlowSail is accepted to ICNP 2023.</p></li>
+    <li><p>July 2022&nbsp;&nbsp; SRNIC is accepted to NSDI 2023.</p></li>
+  </ul>
+  <a href="#" id="toggle-news" onclick="toggleNews()">More</a>
 
-            <li>
-                <b><font color=#4682B4>[NSDI 2023]</font></b> <b><a href="https://www.usenix.org/conference/nsdi23/presentation/wang-zilong" target="_blank">SRNIC: A Scalable Architecture for RDMA NICs</a></b>
-                <br>Zilong Wang, Layong Luo, Qingsong Ning, Chaoliang Zeng, <b>Wenxue Li</b>, Xinchen Wan, Peng Xie, Tao Feng, Ke Cheng, Xiongfei Geng, Tianhao Wang, Weicheng Ling, Kejia Huo, Pingbo An, Kui Ji, Shideng Zhang, Bin Xu, Ruiqing Feng, Tao Ding, Kai Chen, Chuanxiong Guo
-                <!-- <br><b><font color=#DC143C>Best Paper Award</font></b> -->
-                <br>[<a href="https://www.usenix.org/system/files/nsdi23-wang-zilong.pdf" target="_blank">Link</a>]
-            </li>
-            
-            <li>
-                <b><font color=#4682B4>[APNet 2023]</font></b> <b><a href="https://dl.acm.org/doi/10.1145/3600061.3600066" target="_blank">Scaling Switch-driven Flow Control with Aquarius</a></b>
-                <br><b>Wenxue Li</b>, Chaoliang Zeng, Jinbin Hu, Kai Chen
-                <!-- <br><b><font color=#DC143C>Best Paper Award</font></b> -->
-                <br>[<a href="https://dl.acm.org/doi/pdf/10.1145/3600061.3600066" target="_blank">Link</a>]
-            </li>
-        </ol>
-        <hr class="new">
-    </div>
- 
+  <h2>Honors</h2>
+  <ul>
+    <li><p>HPCA 2024 Travel Grants (2024) </p></li>
+    <li><p>HKUST Research Travel Grants (2023 Fall, 2024 Winter, 2024 Fall) </p></li>
+    <li><p>HKUST Postgraduate Studentship (2021-2025)</p></li>
+    <li><p>First-class Scholarship, ZJU (2019)</p></li>
+    <li><p>Zhejiang Daily - Alibaba New Media Scholarship, ZJU (2019)</p></li>
+    <li><p>Outstanding Student Leader, ZJU (2018)</p></li>
+  </ul>
 
-    <div class="content honors" name='honors'>
-        <a name="honors"></a>
-        <div class="title">Experiences</div>
-        <ul>
-            <li>Research Intern @ Huawei Hong Kong Research Center (June 2024 - Present)</li>
-            <li>Software Engineer Intern @ ByteDance (July 2020 - June 2021)</li>
-        </ul>
-        <hr class="new">
-    </div> 
+<div id="footer" >
+<div id="footer-text">
+<script type="text/javascript">
+document.write("Last updated "+new Date(document.lastModified).toUTCString());
+</script>
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+</div>
 
-    <div class="content honors" name='honors'>
-        <a name="honors"></a>
-        <div class="title">Honors</div>
-        <ul>
-            <li>HPCA 2024 Travel Grants (2024) </li>
-            <li>HKUST Research Travel Grants (2023 Fall, 2024 Winter) </li>
-            <li>HKUST Postgraduate Studentship (2021-2025)</li>
-            <li>First-class Scholarship, ZJU (2019)</li>
-            <li>Zhejiang Daily - Alibaba New Media Scholarship, ZJU (2019)</li>
-            <li>Outstanding Student Leader, ZJU (2018)</li>
-        </ul>
-        <hr class="new">
-    </div>
+<script>
+  function toggleNews() {
+    const newsList = document.getElementById('news-list');
+    const toggleLink = document.getElementById('toggle-news');
+    const isExpanded = toggleLink.textContent === 'Less';
 
-    <div class="content link" name='Links'>
-        <div class="title">Services</div>
-        <ul>
-            <li> ACM Transactions on Privacy and Security (TOPS), Reviewer, 2024
-            </li>            
-        </ul>
-        <hr class="new">
-    </div>
+    for (let i = 5; i < newsList.children.length; i++) {
+      newsList.children[i].style.display = isExpanded ? 'none' : 'list-item';
+    }
 
-    <div class="content link" name='Links'>
-        <div class="title">Teaching Assistant</div>
-        <ul>
-            <li> COMP 4651 - Cloud Computing and Big Data Systems, 2022 Spring
-            </li> 
-            <li> COMP 3511 - Operating Systems, 2022 Fall
-            </li>
-            <li> COMP 5621 - Computer Networks, 2023 Fall
-            </li>            
-        </ul>
-    </div> 
+    toggleLink.textContent = isExpanded ? 'More' : 'Less';
+  }
+</script>
 
-    <div class="content footer">
-        Last updated on <b><span id="lastModifiedDate"></span></b>.
-    </div>
-    <script>
-        document.getElementById("lastModifiedDate").textContent = new Date(document.lastModified).toLocaleDateString();
-    </script>
-
+</td>
+</tr>
+</table>
 </body>
 </html>
