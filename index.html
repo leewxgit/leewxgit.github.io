@@ -104,7 +104,14 @@ document.write("Last updated "+new Date(document.lastModified).toUTCString());
 </script>
 &nbsp;&nbsp;&nbsp;&nbsp;
 </div>
+
+<div id="visitor-counter" style="text-align:left; margin-top:20px;">
+  Historical Visitors:
+  <?php include("counter.php"); ?>
 </div>
+</div>
+
+
 
 <script>
   function toggleNews() {
