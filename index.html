@@ -16,6 +16,28 @@
   #news-list li:nth-child(-n+5) {
     display: list-item;
   }
+  .visitor-map {
+    display: inline-block;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
+  .visitor-map > * {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .map-table {
+    border-collapse: collapse;
+    border: none;
+    margin: 0 auto;
+  }
+  .map-table td {
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+  }
 </style>
 </head>
 
@@ -28,7 +50,7 @@
 <div class="menu-item"><a href="index.html" class="current">Home</a></div>
 <div class="menu-item"><a href="pub.html">Publications</a></div>
 <div class="menu-item"><a href="service.html">Professional Services</a></div>
-<div class="menu-item"><a href="CV.pdf">CV</a></div>
+<div class="menu-item"><a href="CV_0918.pdf">CV</a></div>
 </td>
 
 <td id="layout-content">
@@ -36,7 +58,9 @@
 <h1>Wenxue Li (&#x674e; &#x6587; &#x96ea;)</h1>
 </div>
 
-<table class="imgtable"><tr><td>
+<table class="imgtable">
+<tr>
+<td>
 <img src="./img/lwx.jpg" alt="alt text" width="200px" height="245px" /></td>
 <td align="left">
 <p>
@@ -123,20 +147,14 @@ document.write("Last updated "+new Date(document.lastModified).toUTCString());
   }
 </script>
 
-<br/>
-<div style="height:10px"></div>
-<div style="text-align: center;">
-  <div id="mapmyvisitors" style="max-width: 400px; margin: 0 auto; transform: scale(0.8); transform-origin: center center; min-height: 200px;"></div>
-</div>
-<script type="text/javascript">
-  // 确保DOM加载完成后再加载地图脚本
-  document.addEventListener('DOMContentLoaded', function() {
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = '//mapmyvisitors.com/map.js?d=Oo5resBJH_PMMUfihAF_THFy_H4x-O3KMcfB8psmSC8&cl=ffffff&w=a';
-    document.head.appendChild(script);
-  });
-</script>
+<table class="map-table">
+<tr><td>
+  <div class="visitor-map">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=bcuphE-tgAvDhteVfZT30VFP22uiAJtNTP_04ySXFS4&cl=ffffff&w=a"></script>
+  </div>
+</td>
+</tr>
+</table>
 
 </td>
 </tr>
