@@ -18,10 +18,10 @@
   }
   .visitor-map {
     display: inline-block;
-    width: 800px;
-    height: 500px;
+    width: 400px;
+    height: 250px;
     overflow: hidden;
-    transform: scale(0.5);
+    transform: scale(1);
     transform-origin: top left;
   }
   .visitor-map > * {
@@ -90,6 +90,7 @@ Hong Kong SAR, China
 
   <h2>News</h2>
   <ul id="news-list">
+    <li><p>Dec. 2025&nbsp;&nbsp; PolicyCache accepted to NSDI 2026.</p></li>
     <li><p>Sep. 2025&nbsp;&nbsp; DCP awarded SIGCOMM'25 Best Student Paper Award Honorable Mention!</p></li>
     <li><p>Aug. 2025&nbsp;&nbsp; LTP and MFS accepted to EuroSys 2026.</p></li>
     <li><p>Aug. 2025&nbsp;&nbsp; Cepheus accepted to IEEE/ACM Transactions on Networking.</p></li>
@@ -127,7 +128,10 @@ Hong Kong SAR, China
 <div id="footer" >
 <div id="footer-text">
 <script type="text/javascript">
-document.write("Last updated "+new Date(document.lastModified).toUTCString());
+const lastModified = new Date(document.lastModified);
+const month = String(lastModified.getMonth() + 1).padStart(2, '0');
+const year = lastModified.getFullYear();
+document.write("Last updated: "+year+"-"+month);
 </script>
 &nbsp;&nbsp;&nbsp;&nbsp;
 </div>
